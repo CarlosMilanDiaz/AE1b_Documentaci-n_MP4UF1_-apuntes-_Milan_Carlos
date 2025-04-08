@@ -1,4 +1,4 @@
-Aplicación: GITHUB
+###Aplicación: GITHUB
 
 Creamos una cuenta de GitHub y descargamos e instalamos Git desde: https://git-scm.com/download/win.
 
@@ -25,7 +25,7 @@ git add .
 git commit -m "comentario que queramos"
 git push origin main
 
-Capítulo 1: MARKDOWN
+###Capítulo 1: MARKDOWN
 
 Formatos de texto
 
@@ -81,7 +81,7 @@ Checkbox
 - [ ] Opción A
 - [X] Opción B
 
-Capítulo 2: HTML
+###Capítulo 2: HTML
 
 Estructura básica
 ```
@@ -142,7 +142,7 @@ Formularios
   <textarea name="mensaje"></textarea>
 </form>
 ```
-Capítulo 3: CSS
+###Capítulo 3: CSS
 
 ¿Qué es CSS?
 
@@ -194,7 +194,7 @@ Borde
 
 Margin (espacio externo)
 ```
-Capítulo 4: Diseño Responsive
+###Capítulo 4: Diseño Responsive
 
 ¿Qué es el diseño responsive?
 
