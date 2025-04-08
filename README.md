@@ -57,14 +57,14 @@ Listas anidadas:
 Código
 
 Usar triple comilla invertida para mostrar código sin ejecutarlo:
-
+```
 <html>
   <head></head>
   <body>
     <p>Esto es un párrafo</p>
   </body>
 </html>
-
+```
 Enlaces e imágenes
 
 [Texto del enlace](http://ejemplo.com "Texto emergente")
@@ -84,7 +84,7 @@ Checkbox
 Capítulo 2: HTML
 
 Estructura básica
-
+```
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -96,9 +96,9 @@ Estructura básica
     <!-- Contenido aquí -->
   </body>
 </html>
-
+```
 Elementos comunes
-
+```
 <p>: párrafo
 
 <br>: salto de línea
@@ -110,14 +110,14 @@ Elementos comunes
 <img src="imagen.jpg" alt="Descripción">
 
 <blockquote>: cita textual
-
+```
 Listas:
-
+```
 <ol><li>Item</li></ol>
 <ul><li>Item</li></ul>
-
+```
 Tablas:
-
+```
 <table border="1">
   <thead>
     <tr><th>Col 1</th><th>Col 2</th></tr>
@@ -126,22 +126,22 @@ Tablas:
     <tr><td>Dato 1</td><td>Dato 2</td></tr>
   </tbody>
 </table>
-
+```
 Contenedores
-
+```
 <div>: contenedor genérico
-
+```
 Semánticos: <header>, <nav>, <section>, <article>, <aside>, <footer>
 
 Formularios
-
+```
 <form action="" method="POST">
   <input type="text" name="nombre">
   <input type="password" name="clave">
   <input type="email" name="correo">
   <textarea name="mensaje"></textarea>
 </form>
-
+```
 Capítulo 3: CSS
 
 ¿Qué es CSS?
@@ -151,29 +151,29 @@ CSS (Cascading Style Sheets) permite definir el estilo y formato de los elemento
 Formas de incluir CSS
 
 En línea:
-
+```
 <p style="color: red;">Texto en rojo</p>
-
+```
 En la cabecera (dentro del HTML):
-
+```
 <head>
   <style>
     p { color: blue; }
   </style>
 </head>
-
+```
 Archivo externo:
-
+```
 <link rel="stylesheet" href="styles.css">
-
+```
 Selectores básicos
-
+```
 h1 { color: navy; }
 #idEjemplo { font-size: 20px; }
 .claseEjemplo { background-color: yellow; }
-
+```
 Propiedades comunes
-
+```
 color, background-color
 
 font-size, font-family
@@ -193,7 +193,7 @@ Padding (espacio interno)
 Borde
 
 Margin (espacio externo)
-
+```
 Capítulo 4: Diseño Responsive
 
 ¿Qué es el diseño responsive?
@@ -201,45 +201,40 @@ Capítulo 4: Diseño Responsive
 Es una técnica para que las páginas web se adapten a distintos tamaños de pantalla (PC, tablet, móvil).
 
 Unidades relativas
-
+```
 %, em, rem, vw, vh
-
+```
 Media Queries
 
 Permiten aplicar estilos según el tamaño del dispositivo:
-
+```
 @media (max-width: 768px) {
   body {
     font-size: 14px;
   }
 }
-
+```
 Flexbox (layout flexible)
-
+```
 .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-
+```
 Grid (layout en rejilla)
-
+```
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-
+```
 Buenas prácticas
 
-Usa un viewport adecuado: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-Usa un viewport adecuado: <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Prueba en diferentes dispositivos o usa herramientas como el inspector de Chrome.
+-Prueba en diferentes dispositivos o usa herramientas como el inspector de Chrome.
 
-Usa frameworks como Bootstrap si necesitas componentes listos para usar.
-Botón de envío:
-
-html
-
-```<input type="submit" value="Enviar">```
+-Usa frameworks como Bootstrap si necesitas componentes listos para usar.
