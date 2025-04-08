@@ -67,7 +67,7 @@ Usar triple comilla invertida para mostrar código sin ejecutarlo:
 ```
 Enlaces e imágenes
 
-[Enlace FJE]((https://www.fje.edu/es/fje) "Enlace fje")
+[Esto es un enlace](http://joan23.fje.edu "Enlace a la web del cole")
 ![Imagen](One-Piece-Enies-Lobby.jpg "Texto emergente")
 
 Tablas
